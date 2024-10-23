@@ -1,0 +1,56 @@
+/* Estilo para los escudos de los equipos */
+.team-logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Estilos generales y de tarjetas (sin cambios) */
+body {
+    background-color: #0e1a40;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    color: #d4af37;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background-color: #1c346d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #d4af37;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.card-body {
+    border-top: 2px solid #d4af37;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.my-3 {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
